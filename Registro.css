@@ -1,0 +1,356 @@
+body
+    {
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        color: navy;   
+    }
+.ShowMenu
+    {
+        /* border: 4px solid lawngreen; */
+        width: 600px;
+        height: 500px;
+    }
+
+.MenuButtons
+    {
+        width: 410px;
+        /* border: 4px solid navy; */
+        height: 50px;
+        display: flex;
+        justify-items: center;
+    } 
+
+.Message
+    {
+        margin: left;  
+        width: 642px;
+        height: 35px;
+        float: left;
+        /* border: 4px solid navy; */
+    }
+
+.alertinfo
+    {
+        margin: left;
+        width: max-content;
+        background: green;
+        color: yellow;
+        text-shadow: 2px 2px black;
+        height: 40px;
+        font-size: 29px;
+        border-radius: 6px;
+    }
+
+.alertdanger
+    {
+        margin: left;
+        width: max-content;
+        background: red;
+        color: yellow;
+        text-shadow: 2px 2px black;
+        height: 40px;
+        font-size: 29px;
+        border-radius: 6px;
+    }
+
+Form
+    {
+        width: 650px;
+        box-sizing: border-box;
+        /* border: 4px solid navy; */
+        border-radius: 35px 0px 35px 0px;
+        float: left;
+    }
+
+fieldset
+    {
+        width: 300px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-left: 12px;
+        border: 3px solid navy;
+        float: left;
+        color: navy; 
+    }
+
+input
+    {
+        width: 100%;
+        margin-bottom: 5px;
+        border: double;
+        box-sizing: border-box;
+        background-color: steelblue;
+        color: white;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+input:disabled
+    {
+        width: 100%;
+        margin-bottom: 5px;
+        border: double;
+        box-sizing: border-box;
+        background-color: red;
+        color: white;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+input:focus
+    {
+        background-color: yellow;
+        color: black ;
+        border: 4px solid goldenrod;
+    }
+
+.buttons
+    {
+        margin-top: 8px;
+        margin-left: 12px;
+        width: 585px;
+        height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+        /* border: 4px solid red; */
+        color: navy;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        justify-items: center;
+    }
+
+button
+    {   
+        padding: 10px;
+        color: white;
+        width: 120px;
+        background-color: steelblue;
+        border-radius: 6px;
+        border: 3px solid navy;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+button:hover
+    {
+        background-color: navy;
+        border: 3px solid navy;
+        box-shadow: 0 0 10px 0 navy inset, 0 0 10px 4px navy;
+    }
+
+.Add:hover
+    {
+        background-color: navy;
+        border: 3px solid blue;
+        box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    }
+
+.Search:hover
+    {
+        background-color: green;
+        border: 3px solid limegreen;
+        box-shadow: 0 0 10px 0 limegreen inset, 0 0 10px 4px limegreen;
+    }
+
+.Deleted:hover
+    {
+        background-color: firebrick;
+        border: 3px solid red;
+        box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px red;
+    }
+
+.LoadUser:hover
+    {
+        background-color: indigo;
+        border: 3px solid blueviolet;
+        box-shadow: 0 0 10px 0 blueviolet inset, 0 0 10px 4px blueviolet;
+    }
+
+.Reset:hover
+    {
+        background-color: gold;
+        border: 3px solid yellow;
+        box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 4px yellow;
+    }
+
+.Edit
+    {
+        background-color:gold;
+        border: 3px solid yellow;
+    }
+.Edit:hover
+    {
+        background-color: gold;
+        border: 3px solid yellow;
+        box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 4px yellow;
+    }
+
+.Update:hover
+    {
+        background-color: firebrick;
+        border: 3px solid red;
+        box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px red;
+    }
+
+.Display:hover
+    {
+        background-color: chocolate;
+        border: 3px solid maroon;
+        box-shadow: 0 0 10px 0 maroon inset, 0 0 10px 4px maroon;
+    }
+
+p
+    {
+        margin: 8px;
+        color: navy;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+a
+    {
+        color: navy;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+.Modify
+    {
+        margin-top: 10px;
+        width: max-content;
+        height: 80px;
+        padding-right: 10px;
+        float: left;
+        /* border: 4px solid yellow; */
+        color: navy;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+:root
+    {
+        --Borde: navy;
+        --Fondo: navy;
+        --Base: steelblue;
+
+        --Bordehover: indigo;
+        --Fondohover: indigo;
+        --Basehover: blueviolet;
+    }
+
+select 
+    {
+        appearance: none;
+        cursor: pointer;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: navy;
+        border: 2px solid navy;
+        line-height: 1;
+        padding: 8px 35px;
+        border-radius: 4px;
+        background-color:white;
+        background-image:   linear-gradient(var(--Borde/*Bor*/), var(--Borde/*Bor*/)),
+                            linear-gradient(-135deg, transparent 50%, var(--Base/*Izq*/) 50%),
+                            linear-gradient(-225deg, transparent 50%, var(--Base/*Der*/) 50%),
+                            linear-gradient(var(--Base/*Arr*/) 42%, var(--Fondo/*Fon*/) 42%);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+        background-position: right 20px center, right bottom, right bottom, right bottom;   
+    }
+
+select:hover
+    {
+        background-image:   linear-gradient(var(--Bordehover), var(--Bordehover)),
+                            linear-gradient(-135deg, transparent 50%, var(--Basehover) 50%),
+                            linear-gradient(-225deg, transparent 50%, var(--Basehover) 50%),
+                            linear-gradient(var(--Basehover) 42%, var(--Fondohover) 42%);
+    }
+
+.Container
+    {
+        width: 150px;
+        height: 80px;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+        border: 4px solid maroon;
+        color: navy;
+        font-family: "constantia", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        clear: both;
+    }
+
+.DisplayButton
+    {
+        width: 150px;
+        height: 80px;
+        padding-right: 10px;
+        margin-left: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+        /* border: 4px solid maroon; */
+        color: navy;
+    }
+
+.Result
+    {
+        width: 350px;
+        height: 300px;
+        float: left;
+        clear: both;
+        /* border: 4px solid green; */
+    }
+
+.Show
+    {
+        width: max-content;
+        height: max-content;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 10px;
+        border-radius: 35px 0px 35px 0px;
+        background-color: steelblue;
+        color: white;
+        float: left;
+        /* border: 4px solid yellow; */
+        display: flex;
+        font-size: 18px;
+    }
+
+.DisplayList
+{
+        width: 230px;
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        float: left;
+        clear: both;
+        /* border: 4px solid fuchsia;   */
+    }
+
+.ShowList
+    {
+        width: 350px;
+        height: 300px;
+        float: left;
+        clear: both;
+        /* border: 4px solid mediumaquamarine;   */
+    }
